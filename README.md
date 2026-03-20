@@ -1,4 +1,4 @@
-# 🚗 DriveEasy — Pátio de Automóveis v2.0
+# Pátio de Automóveis v2.0
 
 Sistema de gerenciamento e venda de automóveis desenvolvido em PHP + MySQL.  
 Projeto acadêmico — SENAI "Luiz Massa" | Técnico em Desenvolvimento de Sistemas | 2023  
