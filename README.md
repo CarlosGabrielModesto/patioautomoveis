@@ -1,14 +1,15 @@
 # Pátio de Automóveis v2.0
 
-Sistema de gerenciamento e venda de automóveis desenvolvido em PHP + MySQL.  
+Sistema de gerenciamento e venda de automóveis desenvolvido em PHP + MySQL.
+
 Projeto acadêmico — SENAI "Luiz Massa" | Técnico em Desenvolvimento de Sistemas | 2023  
 Refatorado e profissionalizado em 2025.
 
 ---
 
-## 📁 Estrutura de Arquivos
+## Estrutura do Projeto
 
-```
+```text
 patioautomoveis/
 │
 ├── index.php                  # Página inicial — Listagem de Áreas
@@ -35,16 +36,16 @@ patioautomoveis/
 
 ---
 
-## ⚙️ Requisitos
+## Requisitos
 
-- **PHP** 7.4 ou superior (recomendado: PHP 8.x)
-- **MySQL** 5.7 ou superior (ou MariaDB 10.x)
-- **Apache** com mod_rewrite ativado
-- **XAMPP** (recomendado para desenvolvimento local no Windows)
+- PHP 7.4 ou superior (recomendado: PHP 8.x)
+- MySQL 5.7 ou superior (ou MariaDB 10.x)
+- Apache com mod_rewrite ativado
+- XAMPP (recomendado para desenvolvimento local no Windows)
 
 ---
 
-## 🚀 Como Instalar e Executar (XAMPP)
+## Instalação e execução com XAMPP
 
 ### 1. Instalar o XAMPP
 
@@ -53,7 +54,7 @@ patioautomoveis/
 3. Abra o **XAMPP Control Panel**
 4. Clique em **Start** no Apache e no MySQL
 
-### 2. Configurar o Banco de Dados
+### 2. Configurar o banco de dados
 
 1. Abra o navegador e acesse: http://localhost/phpmyadmin
 2. Clique em **Novo** (ou **New**) para criar um banco
@@ -71,7 +72,8 @@ patioautomoveis/
 4. Copie todos os arquivos do projeto para dentro dessa pasta
 
 A estrutura final deve ser:
-```
+
+```text
 C:\xampp\htdocs\patioautomoveis\
     ├── index.php
     ├── lista-automoveis.php
@@ -93,20 +95,20 @@ define('DB_PASS', 'root');      // Padrão do XAMPP: senha vazia ''
 define('DB_NAME', 'patioautomoveis_db');
 ```
 
-> ⚠️ No XAMPP, a senha padrão do MySQL é **vazia** (string vazia `''`).  
+> No XAMPP, a senha padrão do MySQL é **vazia** (string vazia `''`).  
 > Se instalou com senha, ajuste `DB_PASS` conforme necessário.
 
 ### 5. Acessar o sistema
 
 Abra o navegador e acesse:
 
-```
+```text
 http://localhost/patioautomoveis/
 ```
 
 ---
 
-## 🔐 Melhorias de Segurança (v2.0)
+## Melhorias de Segurança (v2.0)
 
 | Problema (v1.0)                     | Solução aplicada (v2.0)                          |
 |-------------------------------------|--------------------------------------------------|
@@ -118,7 +120,7 @@ http://localhost/patioautomoveis/
 
 ---
 
-## ✨ Melhorias Visuais (v2.0)
+## Melhorias Visuais (v2.0)
 
 - Bootstrap 5.3 (era 4.1)
 - Tema escuro profissional + tema claro alternável
@@ -131,7 +133,7 @@ http://localhost/patioautomoveis/
 
 ---
 
-## 👨‍💻 Autor
+## Autor
 
 **Carlos Gabriel dos Santos Modesto**  
 Técnico em Desenvolvimento de Sistemas  
